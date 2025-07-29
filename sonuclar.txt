@@ -1,0 +1,89 @@
+Simülasyon başlıyor...
+
+Adım: 100
+  koyun: 27
+  inek: 9
+  kurt: 10
+  aslan: 8
+  tavuk: 8
+  horoz: 10
+
+Adım: 200
+  koyun: 26
+  inek: 9
+  kurt: 10
+  aslan: 8
+  tavuk: 8
+  horoz: 10
+
+Adım: 300
+  koyun: 29
+  inek: 9
+  kurt: 10
+  aslan: 8
+  tavuk: 8
+  horoz: 10
+
+Adım: 400
+  koyun: 31
+  inek: 9
+  kurt: 10
+  aslan: 8
+  tavuk: 8
+  horoz: 10
+
+Adım: 500
+  koyun: 33
+  inek: 9
+  kurt: 10
+  aslan: 8
+  tavuk: 8
+  horoz: 9
+
+Adım: 600
+  koyun: 30
+  inek: 9
+  kurt: 10
+  aslan: 10
+  tavuk: 8
+  horoz: 9
+
+Adım: 700
+  koyun: 28
+  inek: 8
+  kurt: 10
+  aslan: 10
+  tavuk: 8
+  horoz: 9
+
+Adım: 800
+  koyun: 30
+  inek: 8
+  kurt: 10
+  aslan: 10
+  tavuk: 6
+  horoz: 9
+
+Adım: 900
+  koyun: 33
+  inek: 8
+  kurt: 14
+  aslan: 12
+  tavuk: 6
+  horoz: 7
+
+Adım: 1000
+  koyun: 50
+  inek: 7
+  kurt: 14
+  aslan: 12
+  tavuk: 6
+  horoz: 7
+
+Simülasyon tamamlandı. Sonuçlar:
+koyun: 50
+inek: 7
+kurt: 14
+aslan: 12
+tavuk: 6
+horoz: 7
