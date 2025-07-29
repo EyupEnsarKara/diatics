@@ -155,6 +155,14 @@ function simulasyonBaslat() {
                 if (a.tur === b.tur && a.cinsiyet !== b.cinsiyet && a.mesafeHesapla(b) <= 3) {
                     yeniHayvanlar.push(new Hayvan(a.tur, rastgeleCinsiyet(), a.hareketMesafesi));
                 }
+                
+                // Tavuk ve horoz çiftleşmesi (kümes hayvanları)
+                if (((a.tur === "tavuk" && b.tur === "horoz") || (a.tur === "horoz" && b.tur === "tavuk")) && 
+                    a.cinsiyet !== b.cinsiyet && a.mesafeHesapla(b) <= 3) {
+                    // Tavuk-horoz çiftleşmesinden tavuk veya horoz doğar
+                    const yavruTur = Math.random() < 0.5 ? "tavuk" : "horoz";
+                    yeniHayvanlar.push(new Hayvan(yavruTur, rastgeleCinsiyet(), a.hareketMesafesi));
+                }
             }
         }
         hayvanlar = hayvanlar.concat(yeniHayvanlar);
